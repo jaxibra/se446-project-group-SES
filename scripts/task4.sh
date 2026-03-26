@@ -1,0 +1,11 @@
+
+  -files src/task4mapper.py,src/reducer.py \
+  -mapper "python3 task4mapper.py" \
+  -reducer "python3 reducer.py" \
+  -input /data/chicago_crimes.csv \
+  -output /user/mohalghamdi/project/m1/task41~
+  -files src/task4mapper.py,src/reducer.py \
+  -mapper "python3 task4mapper.py" \
+  -reducer "python3 reducer.py" \
+  -input /data/chicago_crimes.csv \
+  -output /user/mohalghamdi/project/m1/task4
