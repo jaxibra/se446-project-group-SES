@@ -1,0 +1,2 @@
+Arrested	215199
+Not Arrested	577874
