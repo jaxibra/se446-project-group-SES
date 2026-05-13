@@ -1,0 +1,25 @@
+# SE446 M2 — spark-submit execution log
+# Task 11: Cluster Execution — spark-submit (cluster deploy mode)
+# Author: Thabet Al-Salmalki (tsalmalki)
+#
+# Command used:
+#   spark-submit \
+#       --master yarn \
+#       --deploy-mode cluster \
+#       --driver-memory 512m \
+#       --num-executors 1 \
+#       --executor-memory 1g \
+#       --executor-cores 1 \
+#       --conf spark.driver.maxResultSize=128m \
+#       --conf spark.yarn.appMasterEnv.PYSPARK_PYTHON=python3.12 \
+#       --conf spark.executorEnv.PYSPARK_PYTHON=python3.12 \
+#       m2_spark_ml.py
+#
+# Retrieve driver logs after submission:
+#   yarn logs -applicationId <appId>
+#
+# ---------------------------------------------------------------
+# PASTE FULL spark-submit terminal output AND yarn logs below
+# ---------------------------------------------------------------
+
+[PLACEHOLDER — replace with actual spark-submit output and yarn logs]
